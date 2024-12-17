@@ -1,0 +1,14 @@
+# Default ignored files
+/shelf/
+/workspace.xml
+/httpRequests/
+/dataSources/
+/dataSources.local.xml
+/.idea
+/vcs.xml
+/siteDev.iml
+/modules.xml
+/misc.xml/
+git_toolbox_prj.xml
+/git_toolbox_blame.xml
+/.gitignore
