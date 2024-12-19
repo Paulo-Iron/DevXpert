@@ -268,7 +268,7 @@ Description: Gerold - Personal Portfolio HTML5 Template
 				loop: true,
 				speed: 2000,
 				autoplay: {
-					delay: 2000,
+					delay: 9000,
 				},
 				navigation: {
 					prevEl: ".testimonial-prev",
