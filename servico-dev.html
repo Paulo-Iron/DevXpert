@@ -195,8 +195,11 @@
 
 <header>
     <main class="site-content" id="content">
-        <section class="breadcrumb_area" data-bg-image="./assets/img/empresa/02-dev.jpg"
-                 data-bg-color="#140C1C">
+        <section class="breadcrumb_area" style="position: relative; overflow: hidden;">
+            <video autoplay muted loop playsinline style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; z-index: -1;">
+                <source src="./assets/img/empresa/05-empresa.mp4" type="video/mp4">
+            </video>
+
             <div class="container">
                 <div class="row">
                     <div class="col">
@@ -542,37 +545,39 @@
                             </div>
                             <div class="tj-project-4-item wow zoomIn" data-tilt>
                                 <div class="tj-project-4-thumb not-hide-cursor" data-cursor="Leia <br> Mais">
-                                    <a class="cursor-hide modal-popup" href="#portfolio-wrapper"><img
+                                    <a class="cursor-hide modal-popup" href="#testes-wrapper"><img
                                             src="assets/img/empresa/07-dev.jpg"
                                             alt=""/></a>
                                 </div>
                                 <div class="tj-project-4-content">
                                     <h4 class="tj-project-4-title" style="text-align: center;">
-                                        <a class="modal-popup" href="#portfolio-wrapper">Garantia de Qualidade (QA)</a>
+                                        <a class="modal-popup" href="#testes-wrapper">Garantia de Qualidade (QA)</a>
                                     </h4>
                                 </div>
                             </div>
                             <div class="tj-project-4-item wow zoomIn" data-tilt>
                                 <div class="tj-project-4-thumb not-hide-cursor" data-cursor="Leia <br> Mais">
-                                    <a class="cursor-hide modal-popup" href="#portfolio-wrapper"><img
+                                    <a class="cursor-hide modal-popup" href="#implantacao-wrapper"><img
                                             src="assets/img/empresa/08-dev.jpg"
                                             alt=""/></a>
                                 </div>
                                 <div class="tj-project-4-content">
                                     <h4 class="tj-project-4-title" style="text-align: center;">
-                                        <a class="modal-popup" href="#portfolio-wrapper">Implementação e Publicação</a>
+                                        <a class="modal-popup" href="#implantacao-wrapper">Implementação e
+                                            Publicação</a>
                                     </h4>
                                 </div>
                             </div>
                             <div class="tj-project-4-item wow zoomIn" data-tilt>
                                 <div class="tj-project-4-thumb not-hide-cursor" data-cursor="Leia <br> Mais">
-                                    <a class="cursor-hide modal-popup" href="#portfolio-wrapper"><img
+                                    <a class="cursor-hide modal-popup" href="#encerramento-wrapper"><img
                                             src="assets/img/empresa/09-dev.jpg"
                                             alt=""/></a>
                                 </div>
                                 <div class="tj-project-4-content">
                                     <h4 class="tj-project-4-title" style="text-align: center;">
-                                        <a class="modal-popup" href="#portfolio-wrapper">Encerramento e Documentação</a>
+                                        <a class="modal-popup" href="#encerramento-wrapper">Encerramento e
+                                            Documentação</a>
                                     </h4>
                                 </div>
                             </div>
@@ -718,22 +723,8 @@
                 </div>
                 <div class="portfolio_navigation">
                     <div class="navigation_item prev-project">
-                        <a href="#" class="project">
-                            <i class="fal fa-arrow-left"></i>
-                            <!--                            <div class="nav_project">-->
-                            <!--                                <div class="label">Previous Project</div>-->
-                            <!--                                <h3 class="title">Sebastian</h3>-->
-                            <!--                            </div>-->
-                        </a>
                     </div>
                     <div class="navigation_item next-project">
-                        <a href="#" class="project">
-                            <!--                            <div class="nav_project">-->
-                            <!--                                <div class="label">Next Project</div>-->
-                            <!--                                <h3 class="title">Qwillo</h3>-->
-                            <!--                            </div>-->
-                            <i class="fal fa-arrow-right"></i>
-                        </a>
                     </div>
                 </div>
             </div>
@@ -808,14 +799,8 @@
                 </div>
                 <div class="portfolio_navigation">
                     <div class="navigation_item prev-project">
-                        <a href="#planejamento-wrapper" class="project">
-                            <i class="fal fa-arrow-left"></i>
-                        </a>
                     </div>
                     <div class="navigation_item next-project">
-                        <a href="#planejamento-wrapper" class="project">
-                            <i class="fal fa-arrow-right"></i>
-                        </a>
                     </div>
                 </div>
             </div>
@@ -823,7 +808,7 @@
 
         <div id="modelagem-wrapper" class="popup_content_area zoom-anim-dialog mfp-hide" data-lenis-prevent>
             <div class="popup_modal_img">
-                <img src="./assets/img/empresa/05-dev.jpg" alt=""/>
+                <img src="assets/img/empresa/05-dev.jpg" alt=""/>
             </div>
             <div class="popup_modal_content">
                 <div class="portfolio_info">
@@ -919,14 +904,8 @@
                 </div>
                 <div class="portfolio_navigation">
                     <div class="navigation_item prev-project">
-                        <a href="#planejamento-wrapper" class="project">
-                            <i class="fal fa-arrow-left"></i>
-                        </a>
                     </div>
                     <div class="navigation_item next-project">
-                        <a href="#planejamento-wrapper" class="project">
-                            <i class="fal fa-arrow-right"></i>
-                        </a>
                     </div>
                 </div>
             </div>
@@ -942,13 +921,19 @@
                         <h2 class="title" style="text-align: center;">Desenvolvimento e Codificação</h2>
                         <div class="desc">
                             <p>
-                                É uma fase essencial no desenvolvimento de sistemas de software, focada em definir como
-                                o sistema deve funcionar e como ele será estruturado.
+                                O processo de desenvolvimento é uma jornada complexa e
+                                multifacetada que transforma requisitos e especificações em um produto funcional. Esta
+                                fase é crucial para garantir que o produto final atenda às necessidades dos usuários e
+                                às expectativas do mercado.
                             </p>
                             <p>
-                                A integração é crucial para o sucesso do desenvolvimento de software,
-                                garantindo que o sistema final seja funcional e bem estruturado, atendendo às
-                                necessidades dos usuários de maneira eficiente e sustentável.
+                                Antes de começar a codificação, é essencial planejar e desenhar a arquitetura e a
+                                estrutura do software. Isso inclui diagramas de fluxo, esquemas de banco de dados, e
+                                design de interface do usuário.
+                            </p>
+                            <p>
+                                Manter uma documentação clara e detalhada é crucial para garantir que todos os membros
+                                da equipe de desenvolvimento compreendam os objetivos e funcionalidades do projeto
                             </p>
                         </div>
                     </div>
@@ -970,58 +955,22 @@
                 <div class="portfolio_story_approach">
                     <div class="portfolio_story">
                         <div class="story_title">
-                            <h4 class="title">Modelagem Funcional</h4>
+                            <h4 class="title">Boas Práticas</h4>
                         </div>
                         <div class="story_content">
                             <ul>
-                                <li> Objetivo:
+                                <li> Codificação:
                                     <p>
-                                        Especificar as funções que o sistema deve realizar para atender aos requisitos
-                                        dos usuários.
+                                        Escrever código limpo, legível e bem-estruturado seguindo princípios como o
+                                        SOLID e o DRY (Don't Repeat Yourself) pode facilitar a manutenção e a
+                                        escalabilidade do software.
                                     </p>
                                 </li>
-                                <li> Ferramentas e Técnicas:
+                                <li> Revisão de Código:
                                     <p>
-                                        Diagramas de casos de uso, diagramas de atividades e histórias de usuários são
-                                        comumente usados para descrever interações entre usuários e o sistema.
-                                    </p>
-                                </li>
-                                <li> Benefícios:
-                                    <p>
-                                        Ajuda a garantir que todas as funcionalidades necessárias sejam contempladas,
-                                        facilita a comunicação entre a equipe de desenvolvimento e os stakeholders e
-                                        serve como base para testes e validações futuras.
-                                    </p>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="portfolio_story_approach">
-                    <div class="portfolio_story">
-                        <div class="story_title">
-                            <h4 class="title">Modelagem Arquitetônica</h4>
-                        </div>
-                        <div class="story_content">
-                            <ul>
-                                <li> Objetivo:
-                                    <p>
-                                        Definir a estrutura do sistema, incluindo seus componentes principais, suas
-                                        interações e o ambiente no qual será implementado.
-                                    </p>
-                                </li>
-                                <li> Ferramentas e Técnicas:
-                                    <p>
-                                        Diagramas de componentes, diagramas de classes e diagramas de sequência são
-                                        usados para visualizar a arquitetura do sistema.
-                                    </p>
-                                </li>
-                                <li> Benefícios:
-                                    <p>
-                                        Proporciona uma visão clara da estrutura do sistema, facilitando a tomada de
-                                        decisões sobre tecnologias, frameworks e padrões de design a serem utilizados.
-                                        Também ajuda a identificar possíveis pontos de falha e a planejar a
-                                        escalabilidade e manutenção do sistema.
+                                        Utilizar sistemas de controle de versão, como Git, permite acompanhar as
+                                        mudanças no código, colaborar de forma eficiente e reverter para versões
+                                        anteriores, se necessário.
                                     </p>
                                 </li>
                             </ul>
@@ -1030,14 +979,343 @@
                 </div>
                 <div class="portfolio_navigation">
                     <div class="navigation_item prev-project">
-                        <a href="#planejamento-wrapper" class="project">
-                            <i class="fal fa-arrow-left"></i>
-                        </a>
                     </div>
                     <div class="navigation_item next-project">
-                        <a href="#planejamento-wrapper" class="project">
-                            <i class="fal fa-arrow-right"></i>
-                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="testes-wrapper" class="popup_content_area zoom-anim-dialog mfp-hide" data-lenis-prevent>
+            <div class="popup_modal_img">
+                <img src="./assets/img/empresa/07-dev.jpg" alt=""/>
+            </div>
+            <div class="popup_modal_content">
+                <div class="portfolio_info">
+                    <div class="portfolio_description">
+                        <h2 class="title" style="text-align: center;">Garantia de Qualidade (QA)</h2>
+                        <div class="desc">
+                            <p>
+                                Garantia de Qualidade (QA) refere-se ao conjunto de atividades sistemáticas
+                                implementadas em um processo de desenvolvimento para assegurar que o produto ou serviço
+                                atenda aos padrões de qualidade definidos. O objetivo principal do QA é prevenir
+                                problemas e defeitos durante o ciclo de desenvolvimento, em vez de corrigi-los após o
+                                lançamento..
+                            </p>
+                            <p>
+                                Garante que o produto final não só atenda aos requisitos funcionais, mas também seja
+                                confiável, eficiente e de alta qualidade.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio_gallery owl-carousel">
+                    <div class="gallery_item">
+                        <img src="./assets/img/portfolio-gallery/p-gallery-1.jpg" alt=""/>
+                    </div>
+                    <div class="gallery_item">
+                        <img src="./assets/img/portfolio-gallery/p-gallery-2.jpg" alt=""/>
+                    </div>
+                    <div class="gallery_item">
+                        <img src="./assets/img/portfolio-gallery/p-gallery-3.jpg" alt=""/>
+                    </div>
+                    <div class="gallery_item">
+                        <img src="./assets/img/portfolio-gallery/p-gallery-4.jpg" alt=""/>
+                    </div>
+                </div>
+                <div class="portfolio_story_approach">
+                    <div class="portfolio_story">
+                        <div class="story_title">
+                            <h4 class="title">Planejamento de QA</h4>
+                        </div>
+                        <div class="story_content">
+                            <ul>
+                                <li> Definição de padrões, processos e métricas para garantir a qualidade do produto
+                                </li>
+                                <li> Identificação dos requisitos de qualidade e critérios de aceitação
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio_story_approach">
+                    <div class="portfolio_story">
+                        <div class="story_title">
+                            <h4 class="title">Controle de Qualidade (QC)</h4>
+                        </div>
+                        <div class="story_content">
+                            <ul>
+                                <li> Envolve testes e inspeções para verificar se o produto está em conformidade com os
+                                    requisitos
+                                </li>
+                                <li> Inclui testes manuais, automatizados, funcionais, de desempenho, entre outros
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio_story_approach">
+                    <div class="portfolio_story">
+                        <div class="story_title">
+                            <h4 class="title">Automação de Testes</h4>
+                        </div>
+                        <div class="story_content">
+                            <ul>
+                                <li> Avaliam o sistema como um todo para garantir que funcione conforme o esperado
+                                </li>
+                                <li> Utilização de ferramentas que automatizam a execução de testes repetitivos para
+                                    aumentar a eficiência e a cobertura dos testes
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio_navigation">
+                    <div class="navigation_item prev-project">
+                    </div>
+                    <div class="navigation_item next-project">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="implantacao-wrapper" class="popup_content_area zoom-anim-dialog mfp-hide" data-lenis-prevent>
+            <div class="popup_modal_img">
+                <img src="./assets/img/empresa/08-dev.jpg" alt=""/>
+            </div>
+            <div class="popup_modal_content">
+                <div class="portfolio_info">
+                    <div class="portfolio_description">
+                        <h2 class="title" style="text-align: center;">Implementação e Publicação</h2>
+                        <div class="desc">
+                            <p>
+                                A implementação e publicação de um sistema ou software compreendem as etapas finais do
+                                ciclo de desenvolvimento, garantindo que o produto seja disponibilizado ao público-alvo
+                                de forma funcional e estável. Essas fases envolvem atividades técnicas, organizacionais
+                                e operacionais.
+                            </p>
+                            <p>
+                                Uma fase crucial no ciclo de vida do desenvolvimento, pois envolve a entrega do produto
+                                final ao ambiente de produção e sua disponibilização para os usuários finais.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio_gallery owl-carousel">
+                    <div class="gallery_item">
+                        <img src="./assets/img/portfolio-gallery/p-gallery-1.jpg" alt=""/>
+                    </div>
+                    <div class="gallery_item">
+                        <img src="./assets/img/portfolio-gallery/p-gallery-2.jpg" alt=""/>
+                    </div>
+                    <div class="gallery_item">
+                        <img src="./assets/img/portfolio-gallery/p-gallery-3.jpg" alt=""/>
+                    </div>
+                    <div class="gallery_item">
+                        <img src="./assets/img/portfolio-gallery/p-gallery-4.jpg" alt=""/>
+                    </div>
+                </div>
+                <div class="portfolio_story_approach">
+                    <div class="portfolio_story">
+                        <div class="story_title">
+                            <h4 class="title">Planejamento da Implementação</h4>
+                        </div>
+                        <div class="story_content">
+                            <ul>
+                                <li> Definir uma estratégia clara para a implantação do software, incluindo cronogramas,
+                                    recursos necessários e etapas a serem seguidas
+                                </li>
+                                <li> Utilização de scripts de implantação automatizados, ferramentas de integração
+                                    contínua e entrega contínua (CI/CD) e sistemas de controle de versão
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio_story_approach">
+                    <div class="portfolio_story">
+                        <div class="story_title">
+                            <h4 class="title">Preparação do Ambiente</h4>
+                        </div>
+                        <div class="story_content">
+                            <ul>
+                                <li> Garante que o ambiente de produção esteja configurado corretamente para suportar o
+                                    novo software, incluindo servidores, redes e segurança
+                                </li>
+                                <li> Realiza-se testes finais com usuários reais para validar se o software atende às
+                                    expectativas e está pronto para o lançamento
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio_story_approach">
+                    <div class="portfolio_story">
+                        <div class="story_title">
+                            <h4 class="title">Automação de Testes</h4>
+                        </div>
+                        <div class="story_content">
+                            <ul>
+                                <li> Avaliam o sistema como um todo para garantir que funcione conforme o esperado
+                                </li>
+                                <li> Utilização de ferramentas que automatizam a execução de testes repetitivos para
+                                    aumentar a eficiência e a cobertura dos testes
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio_navigation">
+                    <div class="navigation_item prev-project">
+                    </div>
+                    <div class="navigation_item next-project">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="encerramento-wrapper" class="popup_content_area zoom-anim-dialog mfp-hide" data-lenis-prevent>
+            <div class="popup_modal_img">
+                <img src="./assets/img/empresa/09-dev.jpg" alt=""/>
+            </div>
+            <div class="popup_modal_content">
+                <div class="portfolio_info">
+                    <div class="portfolio_description">
+                        <h2 class="title" style="text-align: center;">Encerramento e Documentação</h2>
+                        <div class="desc">
+                            <p>
+                                Encerramento e Documentação são as etapas finais no ciclo de vida de um projeto ou
+                                entrega de software. Elas garantem que o trabalho seja oficialmente concluído, que todo
+                                o conhecimento relevante seja registrado e que lições aprendidas sejam documentadas para
+                                futuras iniciativas.
+                            </p>
+                            <p>
+                                Uma fase de encerramento e documentação é crucial para finalizar o projeto de
+                                software de maneira organizada e garantir que todas as informações relevantes estejam
+                                registradas para referência futura.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio_gallery owl-carousel">
+                    <div class="gallery_item">
+                        <img src="./assets/img/portfolio-gallery/p-gallery-1.jpg" alt=""/>
+                    </div>
+                    <div class="gallery_item">
+                        <img src="./assets/img/portfolio-gallery/p-gallery-2.jpg" alt=""/>
+                    </div>
+                    <div class="gallery_item">
+                        <img src="./assets/img/portfolio-gallery/p-gallery-3.jpg" alt=""/>
+                    </div>
+                    <div class="gallery_item">
+                        <img src="./assets/img/portfolio-gallery/p-gallery-4.jpg" alt=""/>
+                    </div>
+                </div>
+                <div class="portfolio_story_approach">
+                    <div class="portfolio_story">
+                        <div class="story_title">
+                            <h4 class="title">Encerramento do Projeto</h4>
+                        </div>
+                        <div class="story_content">
+                            <ul>
+                                <li> Avaliação Final do projeto para garantir que todos os objetivos e
+                                    requisitos foram atendidos. Isso inclui verificar se todas as funcionalidades
+                                    foram implementadas e testadas conforme especificado.
+                                </li>
+                                <li> Relatório de Encerramento resume os principais marcos,
+                                    realizações, desafios enfrentados e soluções adotadas durante o projeto.
+                                </li>
+                                <li> Entrega Formal do projeto aos stakeholders, assegurando que eles estejam
+                                    satisfeitos com o resultado final e cientes de todas as funcionalidades e
+                                    benefícios.
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio_story_approach">
+                    <div class="portfolio_story">
+                        <div class="story_title">
+                            <h4 class="title">Documentação</h4>
+                        </div>
+                        <div class="story_content">
+                            <ul>
+                                <li> Documentação Técnica incluindo diagramas de arquitetura, especificações de
+                                    sistemas, manual de instalação e manutenção, e qualquer outra documentação relevante
+                                    que descreva o funcionamento interno do software.
+                                </li>
+                                <li> Manual do Usuário resume desenvolver guias e manuais para ajudar os usuários
+                                    finais a entenderem e utilizarem eficientemente o software. Isso pode incluir
+                                    tutoriais, FAQs, e vídeos instrutivos.
+                                </li>
+                                <li> Registro de Mudança detalhado das mudanças feitas no software
+                                    durante o desenvolvimento e após a implementação, facilitando a rastreabilidade e a
+                                    manutenção futura.
+                                </li>
+                                <li> Backup e Recuperação refere documentar as políticas e procedimentos de backup e
+                                    recuperação de dados para garantir que o software possa ser restaurado rapidamente
+                                    em caso de falhas ou perdas de dados.
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio_story_approach">
+                    <div class="portfolio_story">
+                        <div class="story_title">
+                            <h4 class="title">Passagem de Conhecimento</h4>
+                        </div>
+                        <div class="story_content">
+                            <ul>
+                                <li> Treinamento para os Usuários finais e a equipe de suporte técnico, garantindo que
+                                    todos estejam capacitados para utilizar e manter o software adequadamente.
+                                </li>
+                                <li> Estabelecer canais de Suporte Técnico para responder a dúvidas e resolver problemas
+                                    que possam surgir após a implantação.
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio_story_approach">
+                    <div class="portfolio_story">
+                        <div class="story_title">
+                            <h4 class="title">Avaliação Pós-Projeto</h4>
+                        </div>
+                        <div class="story_content">
+                            <ul>
+                                <li> Coletar Feedback dos usuários e stakeholders sobre o processo de desenvolvimento e
+                                    o produto final. Isso ajuda a identificar áreas de melhoria e lições aprendidas.
+                                </li>
+                                <li> Realizar Reunião de Encerramento com a equipe do projeto para discutir o
+                                    desempenho do projeto, compartilhar aprendizados e reconhecer contribuições
+                                    individuais.
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio_story_approach">
+                    <div class="portfolio_story">
+                        <div class="story_title">
+                            <h4 class="title">Arquivamento do Projeto</h4>
+                        </div>
+                        <div class="story_content">
+                            <ul>
+                                <li> Garantir que toda a documentação do projeto, código-fonte, e outros artefatos
+                                    importantes sejam armazenados de maneira segura e organizada para referência futura.
+                                </li>
+                                <li> Definir políticas de acesso para garantir que apenas pessoas autorizadas possam
+                                    acessar as informações do projeto.
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio_navigation">
+                    <div class="navigation_item prev-project">
+                    </div>
+                    <div class="navigation_item next-project">
                     </div>
                 </div>
             </div>
@@ -1176,48 +1454,49 @@
             </div>
         </footer>
     </main>
+</header>
 
-    <script src="assets/js/jquery.min.js"></script>
-    <script src="assets/js/bootstrap.bundle.min.js"></script>
-    <script src="assets/js/gsap.min.js"></script>
-    <script src="assets/js/gsap-scroll-to-plugin.min.js"></script>
-    <script src="assets/js/gsap-scroll-trigger.min.js"></script>
-    <script src="assets/js/gsap-split-text.min.js"></script>
-    <script src="assets/js/nice-select.min.js"></script>
-    <script src="assets/js/backToTop.js"></script>
-    <script src="assets/js/appear.min.js"></script>
-    <script src="assets/js/sticky.min.js"></script>
-    <script src="assets/js/wow.min.js"></script>
-    <script src="assets/js/owl.carousel.min.js"></script>
-    <script src="assets/js/swiper.min.js"></script>
-    <script src="assets/js/isotope.pkgd.min.js"></script>
-    <script src="assets/js/odometer.min.js"></script>
-    <script src="assets/js/magnific-popup.js"></script>
-    <script src="assets/js/vanilla-tilt.min.js"></script>
-    <script src="assets/js/validate.min.js"></script>
-    <script src="assets/js/main.js"></script>
-    <script src="assets/js/tj-cursor.js"></script>
-    <script src="assets/js/jquery.min.js"></script>
-    <script src="assets/js/bootstrap.bundle.min.js"></script>
-    <script src="assets/js/gsap.min.js"></script>
-    <script src="assets/js/gsap-scroll-to-plugin.min.js"></script>
-    <script src="assets/js/gsap-scroll-trigger.min.js"></script>
-    <script src="assets/js/gsap-split-text.min.js"></script>
-    <script src="assets/js/lenis.min.js"></script>
-    <script src="assets/js/nice-select.min.js"></script>
-    <script src="assets/js/backToTop.js"></script>
-    <script src="assets/js/appear.min.js"></script>
-    <script src="assets/js/wow.min.js"></script>
-    <script src="assets/js/lightcase.js"></script>
-    <script src="assets/js/owl.carousel.min.js"></script>
-    <script src="assets/js/swiper.min.js"></script>
-    <script src="assets/js/imagesloaded-pkgd.js"></script>
-    <script src="assets/js/isotope.pkgd.min.js"></script>
-    <script src="assets/js/odometer.min.js"></script>
-    <script src="assets/js/magnific-popup.js"></script>
-    <script src="assets/js/validate.min.js"></script>
-    <script src="assets/js/meanmenu.js"></script>
-    <script src="assets/js/main.js"></script>
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/bootstrap.bundle.min.js"></script>
+<script src="assets/js/gsap.min.js"></script>
+<script src="assets/js/gsap-scroll-to-plugin.min.js"></script>
+<script src="assets/js/gsap-scroll-trigger.min.js"></script>
+<script src="assets/js/gsap-split-text.min.js"></script>
+<script src="assets/js/nice-select.min.js"></script>
+<script src="assets/js/backToTop.js"></script>
+<script src="assets/js/appear.min.js"></script>
+<script src="assets/js/sticky.min.js"></script>
+<script src="assets/js/wow.min.js"></script>
+<script src="assets/js/owl.carousel.min.js"></script>
+<script src="assets/js/swiper.min.js"></script>
+<script src="assets/js/isotope.pkgd.min.js"></script>
+<script src="assets/js/odometer.min.js"></script>
+<script src="assets/js/magnific-popup.js"></script>
+<script src="assets/js/vanilla-tilt.min.js"></script>
+<script src="assets/js/validate.min.js"></script>
+<script src="assets/js/main.js"></script>
+<script src="assets/js/tj-cursor.js"></script>
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/bootstrap.bundle.min.js"></script>
+<script src="assets/js/gsap.min.js"></script>
+<script src="assets/js/gsap-scroll-to-plugin.min.js"></script>
+<script src="assets/js/gsap-scroll-trigger.min.js"></script>
+<script src="assets/js/gsap-split-text.min.js"></script>
+<script src="assets/js/lenis.min.js"></script>
+<script src="assets/js/nice-select.min.js"></script>
+<script src="assets/js/backToTop.js"></script>
+<script src="assets/js/appear.min.js"></script>
+<script src="assets/js/wow.min.js"></script>
+<script src="assets/js/lightcase.js"></script>
+<script src="assets/js/owl.carousel.min.js"></script>
+<script src="assets/js/swiper.min.js"></script>
+<script src="assets/js/imagesloaded-pkgd.js"></script>
+<script src="assets/js/isotope.pkgd.min.js"></script>
+<script src="assets/js/odometer.min.js"></script>
+<script src="assets/js/magnific-popup.js"></script>
+<script src="assets/js/validate.min.js"></script>
+<script src="assets/js/meanmenu.js"></script>
+<script src="assets/js/main.js"></script>
 
 </body>
 
