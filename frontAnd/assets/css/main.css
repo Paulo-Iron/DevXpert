@@ -2587,6 +2587,16 @@ svg:last-child {
     color: var(--tj-white);
 }
 
+.name {
+    text-align: center;
+    margin: 20px;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
 .testimonials-widget .testimonial-item span.designation {
     font-size: 14px;
     display: block;
