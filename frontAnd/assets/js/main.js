@@ -1015,8 +1015,8 @@ Description: Gerold - Personal Portfolio HTML5 Template
 					},
 				},
 				messages: {
-					conName: "Enter your name.",
-					conEmail: "Enter a valid email.",
+					conName: "Adicione seu Nome",
+					conEmail: "Adicione seu E-mail",
 				},
 				submitHandler: function (form) {
 					// start ajax request

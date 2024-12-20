@@ -3835,4 +3835,105 @@ body.absolute_header .breadcrumb_area {
 	border-radius: 50%;
 }
 
+/* Estilo para o botão WhatsApp lado direito e no meio da tela */
+/*.whatsapp-btn {*/
+/*	position: fixed;*/
+/*	top: 50%; !* Centraliza verticalmente *!*/
+/*	right: 20px; !* Lado direito da tela *!*/
+/*	transform: translateY(-50%); !* Ajuste de posicionamento para centralizar verticalmente *!*/
+/*	z-index: 9999; !* Garante que o botão fique por cima de outros elementos *!*/
+/*}*/
+
+/*.whatsapp-button {*/
+/*	background-color: #25D366; !* Cor do fundo do botão *!*/
+/*	color: white; !* Cor do ícone *!*/
+/*	padding: 15px;*/
+/*	border-radius: 50%; !* Torna o botão redondo *!*/
+/*	display: flex;*/
+/*	justify-content: center;*/
+/*	align-items: center;*/
+/*	width: 60px; !* Largura do botão *!*/
+/*	height: 60px; !* Altura do botão *!*/
+/*	text-decoration: none; !* Remove o sublinhado *!*/
+/*	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); !* Sombrinha para dar destaque *!*/
+/*}*/
+
+/*.whatsapp-button:hover {*/
+/*	background-color: #128C7E; !* Cor ao passar o mouse *!*/
+/*}*/
+
+/*.whatsapp-button i {*/
+/*	font-size: 30px; !* Tamanho do ícone *!*/
+/*}*/
+
+/*!* Responsividade para telas menores *!*/
+/*@media (max-width: 768px) {*/
+/*	.whatsapp-btn {*/
+/*		top: 50%; !* Centraliza verticalmente em dispositivos móveis *!*/
+/*		right: 20px; !* Lado direito da tela *!*/
+/*		transform: translateY(-50%); !* Ajuste de posicionamento *!*/
+/*	}*/
+
+/*	.whatsapp-button {*/
+/*		width: 50px; !* Tamanho do botão em dispositivos móveis *!*/
+/*		height: 50px; !* Tamanho do botão em dispositivos móveis *!*/
+/*	}*/
+
+/*	.whatsapp-button i {*/
+/*		font-size: 25px; !* Ajusta o tamanho do ícone em dispositivos móveis *!*/
+/*	}*/
+/*}*/
+
+/* Garantindo que o contêiner de botão WhatsApp use flexbox */
+.whatsapp-btn {
+	position: fixed;
+	top: 0; /* Fixando no topo */
+	right: 0; /* Fixando no lado direito */
+	display: flex;
+	justify-content: flex-end; /* Alinhando o botão à direita */
+	align-items: flex-start; /* Alinhando no topo */
+	padding: 20px; /* Ajuste de padding para centralizar e dar espaçamento */
+	z-index: 9999; /* Garante que o botão fique por cima de outros elementos */
+}
+
+.whatsapp-button {
+	background-color: #25D366; /* Cor do fundo do botão */
+	color: white; /* Cor do ícone */
+	padding: 15px;
+	border-radius: 50%; /* Torna o botão redondo */
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 60px; /* Largura do botão */
+	height: 60px; /* Altura do botão */
+	text-decoration: none; /* Remove o sublinhado */
+	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Sombrinha para dar destaque */
+	transition: background-color 0.3s; /* Suaviza a transição de cor ao passar o mouse */
+}
+
+.whatsapp-button:hover {
+	background-color: #128C7E; /* Cor ao passar o mouse */
+}
+
+.whatsapp-button i {
+	font-size: 30px; /* Tamanho do ícone */
+}
+
+/* Responsividade para telas menores */
+@media (max-width: 768px) {
+	.whatsapp-btn {
+		padding: 15px; /* Ajusta o espaçamento para dispositivos menores */
+	}
+
+	.whatsapp-button {
+		width: 50px; /* Tamanho do botão em dispositivos móveis */
+		height: 50px; /* Tamanho do botão em dispositivos móveis */
+	}
+
+	.whatsapp-button i {
+		font-size: 25px; /* Ajusta o tamanho do ícone em dispositivos móveis */
+	}
+}
+
+
 /* END: Modal CSS */
