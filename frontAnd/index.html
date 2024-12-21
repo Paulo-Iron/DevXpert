@@ -9,6 +9,17 @@
 
     <title>DevSite</title>
 
+    <script>
+        const timestamp = Date.now();
+
+        document.addEventListener("DOMContentLoaded", function () {
+            const links = document.querySelectorAll("link[rel='stylesheet']");
+            links.forEach(link => {
+                link.href = link.href + "?v=" + timestamp;
+            });
+        });
+    </script>
+
     <link rel="stylesheet" href="assets/css/custom-style.css">
     <link rel="stylesheet" href="assets/css/animate.min.css"/>
     <link rel="stylesheet" href="assets/css/bootstrap.min.css"/>
