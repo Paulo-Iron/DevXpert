@@ -81,13 +81,17 @@
                     <nav>
                         <ul>
                             <li class="current-menu-item"><a href="index.html">Home</a></li>
-                            <li><a href="empresa.html">Empresa</a></li>
+                            <li class="has-dropdown">
+                                <a href="empresa.html">Empresa</a>
+                                <ul class="sub-menu">
+                                    <li>
+                                        <a href="empresa.html">Sobre Nós</a>
+                                    </li>
+                                </ul>
+                            </li>
                             <li class="has-dropdown">
                                 <a href="servico.html">Serviços</a>
                                 <ul class="sub-menu">
-                                    <li>
-                                        <a href="servico.html">Consultoria</a>
-                                    </li>
                                     <li>
                                         <a href="servico-dev.html">Desenvolvimento</a>
                                     </li>
@@ -123,16 +127,16 @@
                     <nav>
                         <ul>
                             <li class="current-menu-item"><a href="index.html">Home</a></li>
-                            <li><a href="empresa.html">Empresa</a></li>
+                            <li class="has-dropdown">
+                                <a href="empresa.html">Empresa</a>
+                                <ul class="sub-menu">
+                                    <li><a href="empresa.html">Sobre Nós</a></li>
+                                </ul>
+                            </li>
                             <li class="has-dropdown">
                                 <a href="servico.html">Serviços</a>
                                 <ul class="sub-menu">
-                                    <li>
-                                        <a href="servico.html">Consultoria</a>
-                                    </li>
-                                    <li>
-                                        <a href="servico-dev.html">Desenvolvimento</a>
-                                    </li>
+                                    <li><a href="servico-dev.html">Desenvolvimento</a></li>
                                 </ul>
                             </li>
                             <li><a href="contato.html">Contato</a></li>
@@ -156,9 +160,6 @@
 <main class="site-content" id="content">
 
     <section class="hero-section style-6">
-        <!--        <div class="hero_overly" data-bg-image="assets/img/shapes/h6-hero-shapes.png"></div>-->
-        <!--        <div class="hero_overly" data-bg-image="assets/img/shapes/h4-fun.jpg"></div>-->
-
         <div class="hero_overly">
             <video autoplay loop muted>
                 <source src="assets/img/shapes/inicio-home.mp4" type="video/mp4">
@@ -169,12 +170,11 @@
             <div class="row">
                 <div class="col-12">
                     <div class="hero-wrapper-style-6">
-                        <div class="hero-content-box style-6"></div>
+<!--                        <div class="hero-content-box style-6"></div>-->
                         <div class="hero-content-box style-4">
-                            <h1 class="hero-title">Innovation </h1>
-                            <h1 class="hero-title">Desenvolvimento <br></h1>
+                            <h1 class="hero-title">Innovation</h1>
+                            <h1 class="hero-title">Desenvolvimento</h1>
                         </div>
-                        <br>
                         <div class="hero-content-box style-6">
                             <div class="desc">
                                 <span> <br>Impulsionamos Crescimento </span> <br> com
@@ -193,6 +193,10 @@
                 </div>
             </div>
         </div>
+
+
+
+
 
         <div class="container">
             <div class="row">
@@ -1027,9 +1031,8 @@
                 <div class="footer-menu">
                     <nav>
                         <ul>
-                            <li><a href="index.html">Home</a></li>
                             <li><a href="empresa.html">Empresa</a></li>
-                            <li><a href="servico.html">Consultoria</a></li>
+                            <li><a href="servico.html">Serviços</a></li>
                             <li><a href="contato.html">Contato</a></li>
                         </ul>
                     </nav>

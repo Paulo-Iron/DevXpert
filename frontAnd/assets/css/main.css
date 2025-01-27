@@ -1349,6 +1349,8 @@ ul
     white-space: nowrap; /* Evita quebra de linha no texto */
     overflow: hidden; /* Oculta texto que ultrapassar o limite */
     text-overflow: ellipsis; /* Adiciona "..." caso o texto ultrapasse o limite */
+    text-align: center; /* Alinha o texto à direita */
+    /*height: 100vh;*/
 }
 
 /* Responsividade para telas médias (tablets) */
