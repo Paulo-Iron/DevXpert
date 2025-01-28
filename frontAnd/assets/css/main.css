@@ -1335,37 +1335,37 @@ ul
     height: 20vh;
 }
 
-/* Responsividade para telas médias (tablets) */
-/*@media (max-width: 1024px) {*/
-/*    .hero-section .hero-wrapper-style-6 h1 {*/
-/*        font-size: 5rem; !* Ajusta para tablets *!*/
-/*    }*/
-/*}*/
+ Responsividade para telas médias (tablets)
+@media (max-width: 1024px) {
+    .hero-section .hero-wrapper-style-6 h1 {
+        font-size: 5rem; /* Ajusta para tablets */
+    }
+}
 
-/*!* Responsividade para telas pequenas (smartphones) *!*/
-/*@media (max-width: 768px) {*/
-/*    .hero-section .hero-wrapper-style-6 h1 {*/
-/*        font-size: 3rem; !* Ajusta o tamanho para dispositivos móveis *!*/
-/*    }*/
-/*}*/
+/* Responsividade para telas pequenas (smartphones) */
+@media (max-width: 768px) {
+    .hero-section .hero-wrapper-style-6 h1 {
+        font-size: 3rem; /* Ajusta o tamanho para dispositivos móveis */
+    }
+}
 
-/* Responsividade para telas muito pequenas (smartphones muito pequenos) */
-/*@media (max-width: 480px) {*/
-/*    .hero-section .hero-wrapper-style-6 h1 {*/
-/*        font-size: 2.3rem; !* Ajuste final para garantir que o texto caiba *!*/
-/*    }*/
-/*}*/
+ Responsividade para telas muito pequenas (smartphones muito pequenos)
+@media (max-width: 480px) {
+    .hero-section .hero-wrapper-style-6 h1 {
+        font-size: 2.3rem; /* Ajuste final para garantir que o texto caiba */
+    }
+}
 
-/*.hero-section .hero-wrapper-style-6 {*/
-/*    display: flex;*/
-/*    flex-direction: column;*/
-/*    align-items: flex-start;*/
-/*    justify-content: center;*/
-/*    text-align: left;*/
-/*    padding: 20px;*/
-/*    color: #fff;*/
-/*    position: relative;*/
-/*}*/
+.hero-section .hero-wrapper-style-6 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    text-align: left;
+    padding: 20px;
+    color: #fff;
+    position: relative;
+}
 /*aqui*/
 
 
@@ -1483,7 +1483,7 @@ ul
 
 .hero-content-box {
     width: 50%;
-    padding-top: 13%; /* Espaçamento dinâmico acima (10% da altura da tela) */
+    padding-top: 9%; /* Espaçamento dinâmico acima (10% da altura da tela) */
     top: 50%; /* Posiciona 50% da altura */
     left: 50%; /* Posiciona 50% da largura */
 
@@ -1556,13 +1556,6 @@ ul
     margin-top: 120px;
 }
 
-/* END: Hero Section */
-
-/*
-* ===============================
-*  START: Services Section
-* ===============================
-*/
 .services-section {
     padding-top: 120px;
     padding-bottom: 120px;
