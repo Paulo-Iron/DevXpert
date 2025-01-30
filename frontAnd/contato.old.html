@@ -20,7 +20,7 @@
         });
     </script>
 
-    <link rel="stylesheet" href="assets/css/custom-style.css">
+
     <link rel="stylesheet" href="assets/css/animate.min.css"/>
     <link rel="stylesheet" href="assets/css/bootstrap.min.css"/>
     <link rel="stylesheet" href="assets/css/font-awesome-pro.min.css"/>
@@ -34,7 +34,6 @@
     <link rel="stylesheet" href="assets/css/main.css"/>
     <link rel="stylesheet" href="assets/css/main-2.css"/>
     <link rel="stylesheet" href="assets/css/main-3.css"/>
-    <link rel="stylesheet" href="assets/css/gerold-core.css"/>
     <link rel="stylesheet" href="assets/css/light-mode.css"/>
     <link rel="stylesheet" href="assets/css/meanmenu.css"/>
     <link rel="stylesheet" href="assets/css/responsive.css"/>
@@ -42,12 +41,12 @@
     <link rel="stylesheet" href="assets/css/responsive-3.css"/>
 </head>
 
-<body>
-
+<body class="absolute_header">
 <div class="preloader">
     <svg viewBox="0 0 1000 1000" preserveAspectRatio="none">
         <path id="preloaderSvg" d="M0,1005S175,995,500,995s500,5,500,5V0H0Z"></path>
     </svg>
+
     <div class="preloader-heading">
         <div class="load-text">
             <span>L</span>
@@ -110,7 +109,6 @@
         </div>
     </div>
 </header>
-
 <header class="tj-header-area header-2 header-sticky sticky-out">
     <div class="container">
         <div class="row">
@@ -173,95 +171,63 @@
             </div>
         </div>
     </section>
-</main>
 
-<header class="tj-header-area header-2 header-sticky sticky-out">
-    <div class="container">
-        <div class="row">
-            <div class="col-12 d-flex flex-wrap align-items-center">
-                <div class="logo-box">
-                    <a href="index.html">
-                        <img src="assets/img/logo/logo.png" alt=""/>
-                    </a>
-                </div>
-                <div class="header-info-list d-none d-md-inline-block"></div>
-                <div class="header-menu">
-                    <nav>
-                        <ul>
-                            <li class="current-menu-item"><a href="index.html">Home</a></li>
-                            <li class="has-dropdown">
-                                <a href="empresa.html">Empresa</a>
-                                <ul class="sub-menu">
-                                    <li><a href="empresa.html">Sobre Nós</a></li>
-                                </ul>
-                            </li>
-                            <li class="has-dropdown">
-                                <a href="service-dev.html">Serviços</a>
-                                <ul class="sub-menu">
-                                    <li><a href="service-dev.html">Desenvolvimento</a></li>
-                                </ul>
-                            </li>
-                            <li><a href="contato.html">Contato</a></li>
-                        </ul>
-                    </nav>
-                </div>
-                <div class="mobile-menu d-lg-none"></div>
-                <div class="menu-bar d-lg-none">
-                    <button>
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                    </button>
-                </div>
-            </div>
-        </div>
-    </div>
-</header>
-
-<section class="tj-cta-section tj-cta-6-section">
-    <div class="tj-service-6-area">
+    <section class="contact-section" id="contact-section">
         <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <div class="cta-wrapper tj-cta-6-wrapper" data-bg-image="assets/img/shapes/01.png">
-                        <div class="cta-inner">
-                            <div class="cta-text tj-cta-6-content wow fadeInUp">
-                                <h1 class="tj-cta-6-subtitle"> Fale conosco ! </h1>
-                                <h2 class="tj-cta-6-title">
-                                    <a id="anim" href="mailto:devxpertsolucoes@gmail.com">Vamos falar sobre seu Projeto?</a>
-                                </h2>
-                            </div>
-                            <div class="tj-cta-6-socail wow fadeInUp" data-wow-delay=".5s">
-                                <ul>
-                                    <li><span><i class="fa-brands fa-whatsapp"></i></span><a
-                                            href="https://wa.me/5562994611131?text=Olá, gostaria de mais informações sobre os seus serviços!"
-                                            target="_blank">WhatSapp</a>
-                                    </li>
-                                    <!--                                    <li><span><i-->
-                                    <!--                                            class="fa-brands fa-x-twitter"></i></span><a-->
-                                    <!--                                            href="https://x.com/?@Paullo_Ironn/" target="_blank"> Twitter</a></li>-->
-                                    <li><span><i class="fa-brands fa-facebook"></i></span><a
-                                            href="https://www.facebook.com/pauloiron11" target="_blank">
-                                        Facebook</a></li>
-                                    <li>
-                                    <li><span><i class="fa-brands fa-linkedin"></i></span><a
-                                            href="https://www.linkedin.com/in/dev-xpert-95626834a/" target="_blank">
-                                        LinkedIn</a></li>
-                                    <li>
-                                        <span><i class="fa-solid fa-envelope"></i></span>
-                                        <a href="mailto:evxpertsolucoes@gmail.com">E-mail</a>
-                                    </li>
-                                </ul>
-                                </ul>
-                            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-6 col-md-7 order-2 order-md-1">
+                    <div class="contact-form-box wow fadeInLeft" data-wow-delay=".3s">
+                        <div class="section-header" style="text-align: center;">
+                            <h2 class="section-title"> Vamos conversar sobre seu novo projeto?</h2>
+                            <p>Preencha o formulário e em breve nós responderemos!</p>
+                        </div>
+                        <div class="tj-contact-form">
+                            <form id="contact-form">
+                                <div class="row gx-3">
+                                    <div class="col-sm-6">
+                                        <div class="form_group">
+                                            <input type="text" name="conName" id="conName" placeholder="Nome"
+                                                   autocomplete="off"/>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <div class="form_group">
+                                            <input type="text" name="conLName" id="conLName" placeholder="Sobre nome"
+                                                   autocomplete="off"/>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <div class="form_group">
+                                            <input type="email" name="conEmail" id="conEmail" placeholder="Email"
+                                                   autocomplete="off"/>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <div class="form_group">
+                                            <input type="tel" name="conPhone" id="conPhone" placeholder="Contato"
+                                                   autocomplete="off"/>
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="form_group">
+                                            <textarea name="conMessage" id="conMessage"
+                                                      placeholder="Messagem"></textarea>
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="form_btn" style="text-align: center;">
+                                            <button type="submit" class="btn tj-btn-primary">Enviar</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-</section>
+    </section>
+</main>
 
 <div class="whatsapp-btn">
     <a href="https://wa.me/5562994611131?text=Olá, gostaria de mais informações sobre os seus serviços!"
@@ -271,39 +237,24 @@
 </div>
 
 
-<!--<footer class="tj-footer-6-area">-->
-<!--    <div class="container">-->
-<!--        <div class="row">-->
-<!--            <div class="col">-->
-<!--                <div class="tj-footer-6-wrapper">-->
-<!--                    <div class="tj-footer-6-left"></div>-->
-<!--                    <div class="tj-footer-6-middle">-->
-<!--                    </div>-->
-<!--                </div>-->
-<!--            </div>-->
-<!--        </div>-->
-<!--    </div>-->
-<!--</footer>-->
-
 <footer class="tj-footer-area">
     <div class="container">
         <div class="row">
             <div class="col-md-12 text-center">
-                <div class="footer-logo-box"><br>
+                <div class="footer-logo-box">
                     <a href="#"><img src="assets/img/logo/logo.png" alt=""/></a>
                 </div>
                 <div class="footer-menu">
                     <nav>
                         <ul>
+                            <li><a href="index.html">Home</a></li>
                             <li><a href="empresa.html">Empresa</a></li>
                             <li><a href="service-dev.html">Serviços</a></li>
-                            <li><a href="contato.html">Contato</a></li>
                         </ul>
                     </nav>
                 </div>
                 <div class="copy-text style-2">
-                    <p>&copy; 2024 Todos os direitos reservados <br><a href="#"
-                                                                       target="_blank">&copy;DevXpert&copy; </a></p>
+                    <p>&copy; 2024 Todos os direitos reservados <br><a href="#" target="_blank">&copy;DevXpert&copy; </a></p>
                 </div>
             </div>
         </div>
@@ -320,7 +271,6 @@
 <script src="assets/js/nice-select.min.js"></script>
 <script src="assets/js/backToTop.js"></script>
 <script src="assets/js/appear.min.js"></script>
-<script src="assets/js/sticky.min.js"></script>
 <script src="assets/js/wow.min.js"></script>
 <script src="assets/js/lightcase.js"></script>
 <script src="assets/js/owl.carousel.min.js"></script>
@@ -329,7 +279,6 @@
 <script src="assets/js/isotope.pkgd.min.js"></script>
 <script src="assets/js/odometer.min.js"></script>
 <script src="assets/js/magnific-popup.js"></script>
-<script src="assets/js/vanilla-tilt.min.js"></script>
 <script src="assets/js/validate.min.js"></script>
 <script src="assets/js/meanmenu.js"></script>
 <script src="assets/js/main.js"></script>
