@@ -656,6 +656,17 @@
 	background: transparent;
 	padding: 0px;
 }
+.cta-link {
+	text-decoration: none; /* Remove underline */
+	font-weight: bold; /* Deixa o texto em negrito */
+	color: #007bff; /* Cor do link */
+	transition: transform 0.5s ease, font-size 0.5s ease; /* Transições suaves para o efeito */
+}
+
+.cta-link:hover {
+	transform: scale(22%); /* Aumenta o tamanho do texto */
+	font-size: 1.2em; /* Aumenta o tamanho do texto */
+}
 .tj-contact-form.style-2
 	.form_group
 	input:not([type="submit"]):not([type="radio"]):not([type="checkbox"]),
