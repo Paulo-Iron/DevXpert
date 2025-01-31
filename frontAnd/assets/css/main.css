@@ -3457,6 +3457,13 @@ input:not([type="submit"]):not([type="radio"]):not([type="checkbox"]),
     margin-bottom: 25px;
 }
 
+@media (max-width: 768px) {
+    .tj-cta-6-socail ul {
+        flex-direction: column;
+        gap: 15px;
+    }
+}
+
 .form_group {
     margin-bottom: 15px;
     width: 100%;
