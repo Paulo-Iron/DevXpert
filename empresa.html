@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html class="no-js" lang="pb">
+
+<head>
+    <meta charset="utf-8"/>
+    <meta http-equiv="x-ua-compatible" content="ie=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <meta name="description" content=""/>
+
+    <title>DevSite</title>
+
+    <script>
+        const timestamp = Date.now();
+
+        document.addEventListener("DOMContentLoaded", function () {
+            const links = document.querySelectorAll("link[rel='stylesheet']");
+            links.forEach(link => {
+                link.href = link.href + "?v=" + timestamp;
+            });
+        });
+    </script>
+
+    <link rel="stylesheet" href="assets/css/animate.min.css"/>
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="assets/css/font-awesome-pro.min.css"/>
+    <link rel="stylesheet" href="assets/css/flaticon_gerold.css"/>
+    <link rel="stylesheet" href="assets/css/nice-select.css"/>
+    <link rel="stylesheet" href="assets/css/backToTop.css"/>
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css"/>
+    <link rel="stylesheet" href="assets/css/swiper.min.css"/>
+    <link rel="stylesheet" href="assets/css/odometer-theme-default.css"/>
+    <link rel="stylesheet" href="assets/css/magnific-popup.css"/>
+    <link rel="stylesheet" href="assets/css/main.css"/>
+    <link rel="stylesheet" href="assets/css/main-2.css"/>
+    <link rel="stylesheet" href="assets/css/main-3.css"/>
+    <link rel="stylesheet" href="assets/css/light-mode.css"/>
+    <link rel="stylesheet" href="assets/css/meanmenu.css"/>
+    <link rel="stylesheet" href="assets/css/responsive.css"/>
+    <link rel="stylesheet" href="assets/css/responsive-2.css"/>
+    <link rel="stylesheet" href="assets/css/responsive-3.css"/>
+</head>
+
+<body class="absolute_header">
+<div class="preloader">
+    <svg viewBox="0 0 1000 1000" preserveAspectRatio="none">
+        <path id="preloaderSvg" d="M0,1005S175,995,500,995s500,5,500,5V0H0Z"></path>
+    </svg>
+
+    <div class="preloader-heading">
+        <div class="load-text">
+            <span>L</span>
+            <span>o</span>
+            <span>a</span>
+            <span>d</span>
+            <span>i</span>
+            <span>n</span>
+            <span>g</span>
+        </div>
+    </div>
+</div>
+
+<div class="progress-wrap" id="scrollUp">
+    <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+        <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98"/>
+    </svg>
+</div>
+
+<header class="tj-header-area header-absolute">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 d-flex flex-wrap align-items-center">
+                <div class="logo-box">
+                    <a href="index.html">
+                        <img src="assets/img/logo/logo.png" alt=""/>
+                    </a>
+                </div>
+                <div class="header-info-list d-none d-md-inline-block"></div>
+                <div class="header-menu" id="headerMenu">
+                    <nav>
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li class="has-dropdown">
+                                <a href="empresa.html">Empresa</a>
+                                <ul class="sub-menu">
+                                    <li>
+                                        <a href="empresa.html">Sobre Nós</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="has-dropdown">
+                                <a href="service-dev.html">Serviços</a>
+                                <ul class="sub-menu">
+                                    <li><a href="service-dev.html">Desenvolvimento</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="contato.html">Contato</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="mobile-menu d-lg-none"></div>
+                <div class="menu-bar d-lg-none">
+                    <button>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+<header class="tj-header-area header-2 header-sticky sticky-out">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 d-flex flex-wrap align-items-center">
+                <div class="logo-box">
+                    <a href="index.html">
+                        <img src="assets/img/logo/logo.png" alt=""/>
+                    </a>
+                </div>
+                <div class="header-info-list d-none d-md-inline-block"></div>
+                <div class="header-menu">
+                    <nav>
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li class="has-dropdown">
+                                <a href="empresa.html">Empresa</a>
+                                <ul class="sub-menu">
+                                    <li><a href="empresa.html">Sobre Nós</a></li>
+                                </ul>
+                            </li>
+                            <li class="has-dropdown">
+                                <a href="service-dev.html">Serviços</a>
+                                <ul class="sub-menu">
+                                    <li><a href="service-dev.html">Desenvolvimento</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="contato.html">Contato</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="mobile-menu d-lg-none"></div>
+                <div class="menu-bar d-lg-none">
+                    <button>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<main class="site-content" id="content">
+    <section class="breadcrumb_area" style="position: relative; overflow: hidden;">
+        <video autoplay muted loop playsinline style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; z-index: -1;">
+            <source src="./assets/img/empresa/04-empresa.mp4" type="video/mp4">
+        </video>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <div class="breadcrumb_content d-flex flex-column align-items-center">
+                        <h2 class="title wow fadeInUp" data-wow-delay=".3s">Estratégia & Criatividade</h2>
+                        <div class="breadcrumb_navigation wow fadeInUp" data-wow-delay=".5s">
+                            <span><a href="index.html">Home</a></span>
+                            <i class="far fa-long-arrow-right"></i>
+                            <span class="current-item">Empresa</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="text-section">
+        <div class="section-header text-center">
+            <div class="row">
+                <div class="col-12">
+                    <div class="section-header">
+                        <div class="heading-left">
+                            <h2 id="anim" class="section-title wow fadeInUp" data-wow-delay=".4s">Nossa História</h2>
+                            <br>
+                            <p>Somos uma empresa de Prestação de Serviços especializada no Desenvolvimento de Sistemas e
+                                Software, atuando em diversos segmentos empresariais, como Consultoria e Assessoria
+                                Tecnológica.
+                            </p>
+                            <p>Reconhecemos o poder transformador da otimização dos processos de negócios por meio da
+                                automação. Ao identificar tarefas manuais e repetitivas em seus fluxos de trabalho,
+                                implementamos soluções de automação inteligentes que economizam tempo, reduzem erros e
+                                permitem que sua equipe se concentre em iniciativas estratégicas.
+                            </p>
+                            <p>Analisamos seus processos existentes, identificamos áreas de melhoria e projetamos
+                                fluxos de trabalho de automação que aumentam a eficiência e a produtividade em sua
+                                organização.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="works-section style-2" id="resume-sectionMissao">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section-header text-center">
+                        <h2 class="section-title wow fadeInUp" data-wow-delay=".3s">Pilares Que Nos Guiam</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <div class="works-wrapper">
+                        <div class="works-content-item">
+                            <div class="works-inner wow fadeInUp" data-wow-delay=".4s"></div>
+                        </div>
+                        <div class="works-content-item">
+                            <h3 class="subtitle wow fadeInRight" data-wow-delay=".3s">MISSÃO</h3>
+                            <div class="works-inner wow fadeInUp" data-wow-delay=".4s">
+                                <div class="works-item">
+                                    <div class="works-content">
+                                        <h5 class="subtitle">Oferecer soluções personalizadas e inovadoras em
+                                            desenvolvimento de sistemas e software, aliando tecnologia e estratégia para
+                                            transformar negócios e impulsionar os resultados dos nossos clientes.</h5>
+                                    </div>
+                                </div>
+                                <div class="works-item">
+                                    <div class="works-content">
+                                        <h5 class="subtitle">Tornar a tecnologia acessível e eficiente!</h5>
+                                        <span class="sub-title">Nossa Missão</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="works-section style-2" id="resume-sectionVisao">
+        <div class="container">
+            <div class="row">
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <div class="works-wrapper">
+                        <div class="works-content-item">
+                            <div class="works-inner wow fadeInUp" data-wow-delay=".4s"></div>
+                        </div>
+                        <div class="works-content-item">
+                            <h3 class="subtitle wow fadeInRight" data-wow-delay=".3s">VISÃO</h3>
+                            <div class="works-inner wow fadeInUp" data-wow-delay=".4s">
+                                <div class="works-item">
+                                    <div class="works-content">
+                                        <h5 class="subtitle">Ser referência no mercado de consultoria e desenvolvimento
+                                            de software, reconhecida pela excelência, inovação e compromisso com o
+                                            sucesso dos nossos clientes.</h5>
+                                    </div>
+                                </div>
+                                <div class="works-item">
+                                    <div class="works-content">
+                                        <h5 class="subtitle">Transformar negócios por meio da tecnologia!</h5>
+                                        <span class="sub-title">Nossa Visão</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="works-section style-2" id="resume-sectionValores">
+        <div class="container">
+            <div class="row">
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <div class="works-wrapper">
+                        <div class="works-content-item">
+                            <div class="works-inner wow fadeInUp" data-wow-delay=".4s"></div>
+                        </div>
+                        <div class="works-content-item">
+                            <h3 class="subtitle wow fadeInRight" data-wow-delay=".3s">VALORES</h3>
+                            <div class="works-inner wow fadeInUp" data-wow-delay=".4s">
+                                <div class="works-item">
+                                    <div class="works-content">
+                                        <h5 class="subtitle">Nossos valores refletem o compromisso e a essência da nossa
+                                            empresa, guiando nossas ações e relações, parceiros e colaboradores.</h5>
+                                    </div>
+                                </div>
+                                <div class="works-item">
+                                    <div class="works-content">
+                                        <h5 class="subtitle">Compromisso com os resultados!</h5>
+                                        <span class="sub-title">Nossos Valores</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="skills-section style-3" id="skills-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section-header text-center">
+                        <h2 class="section-title wow fadeInUp" data-wow-delay=".3s">O Que Nos Diferencia?</h2>
+                        <p>Somos uma empresa de consultoria e prestação de serviços em desenvolvimento de sistemas e
+                            software, comprometida em oferecer soluções personalizadas e inovadoras que atendem às
+                            necessidades específicas de cada cliente.</p>
+
+                        <p>Nosso grande diferencial está em nossa equipe especializada, composta por profissionais
+                            altamente qualificados, com experiência em diversas tecnologias e metodologias ágeis.
+                            Trabalhamos com um forte compromisso em entregar resultados eficientes e de alta qualidade,
+                            sempre alinhados aos objetivos estratégicos dos nossos clientes.</p>
+
+                        <p>Além disso, nos destacamos pelo atendimento personalizado, entendendo profundamente os
+                            desafios de cada projeto e oferecendo suporte completo em todas as etapas, desde a concepção
+                            até a implantação e manutenção das soluções.</p>
+
+                        <p>Entregamos não apenas tecnologia, mas também valor estratégico para transformar negócios e
+                            impulsionar resultados.
+
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="whatsapp-btn">
+        <a href="https://wa.me/5562994611131?text=Olá, gostaria de mais informações sobre os seus serviços!"
+           target="_blank" class="whatsapp-button">
+            <i class="fab fa-whatsapp"></i>
+        </a>
+    </div>
+
+</main>
+
+<footer class="tj-footer-area">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <div class="footer-logo-box">
+                    <a href="#"><img src="assets/img/logo/logo.png" alt=""/></a>
+                </div>
+                <div class="footer-menu">
+                    <nav>
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="service-dev.html">Serviços</a></li>
+                            <li><a href="contato.html">Contato</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="copy-text style-2">
+                    <p>&copy; 2024 Todos os direitos reservados <br><a href="#" target="_blank">&copy;DevXpert&copy; </a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/bootstrap.bundle.min.js"></script>
+<script src="assets/js/gsap.min.js"></script>
+<script src="assets/js/gsap-scroll-to-plugin.min.js"></script>
+<script src="assets/js/gsap-scroll-trigger.min.js"></script>
+<script src="assets/js/gsap-split-text.min.js"></script>
+<script src="assets/js/lenis.min.js"></script>
+<script src="assets/js/nice-select.min.js"></script>
+<script src="assets/js/backToTop.js"></script>
+<script src="assets/js/appear.min.js"></script>
+<script src="assets/js/wow.min.js"></script>
+<script src="assets/js/lightcase.js"></script>
+<script src="assets/js/owl.carousel.min.js"></script>
+<script src="assets/js/swiper.min.js"></script>
+<script src="assets/js/imagesloaded-pkgd.js"></script>
+<script src="assets/js/isotope.pkgd.min.js"></script>
+<script src="assets/js/odometer.min.js"></script>
+<script src="assets/js/magnific-popup.js"></script>
+<script src="assets/js/validate.min.js"></script>
+<script src="assets/js/meanmenu.js"></script>
+<script src="assets/js/main.js"></script>
+</body>
+
+</html>
