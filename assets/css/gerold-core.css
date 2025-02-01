@@ -5480,6 +5480,9 @@ START: Theme Hero CSS
   overflow: hidden;
   background-color: var(--tj-black-2);
   z-index: 1;
+  /*opacity: 0.9;*/
+  /*mix-blend-mode: normal;*/
+  /*mix-blend-mode: soft-light;*/
 }
 .hero-section.style-6::before {
   width: 522px;
@@ -5495,14 +5498,10 @@ START: Theme Hero CSS
   width: 522px;
   height: 522px;
   border-radius: 50%;
-  background: var(--tj-theme-primary);
-  background: linear-gradient(260deg, var(--tj-theme-primary) 0%, rgba(115, 67, 210, 0) 100%);
-  -webkit-filter: blur(150px);
-          filter: blur(150px);
   margin-right: -5%;
-  opacity: 0.6;
   margin-top: -5%;
   z-index: -1;
+  filter: brightness(0.9) contrast(1.2) saturate(1.1);
 }
 .hero-section.style-6 .hero_overly {
   position: absolute;
@@ -5521,24 +5520,32 @@ START: Theme Hero CSS
   .hero-section.style-6 {
     padding-top: 210px;
     padding-bottom: 25px;
+    z-index: -1;
+    filter: brightness(0.9) contrast(1.2) saturate(1.1);
   }
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .hero-section.style-6 {
     padding-top: 210px;
     padding-bottom: 25px;
+    z-index: -1;
+    filter: brightness(0.9) contrast(1.2) saturate(1.1);
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .hero-section.style-6 {
     padding-top: 200px;
     padding-bottom: 80px;
+    z-index: -1;
+    filter: brightness(0.9) contrast(1.2) saturate(1.1);
   }
 }
 @media only screen and (min-width: 576px) and (max-width: 767px) {
   .hero-section.style-6 {
     padding-top: 160px;
     padding-bottom: 80px;
+    z-index: -1;
+    filter: brightness(0.9) contrast(1.2) saturate(1.1);
   }
 }
 @media (max-width: 575px) {
