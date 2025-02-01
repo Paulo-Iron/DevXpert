@@ -18,6 +18,20 @@
                 link.href = link.href + "?v=" + timestamp;
             });
         });
+
+        document.addEventListener("DOMContentLoaded", function () {
+            document.getElementById('year').textContent = new Date().getFullYear();
+
+            function updateTime() {
+                const now = new Date();
+                const timeString = now.toLocaleTimeString();
+                document.getElementById('time').textContent = timeString;
+            }
+
+            updateTime(); // Atualiza na carga inicial
+            setInterval(updateTime, 1000); // Atualiza a cada segundo
+        });
+
     </script>
 
     <link rel="stylesheet" href="assets/css/custom-style.css">
@@ -968,8 +982,10 @@
                     </nav>
                 </div>
                 <div class="copy-text style-2">
-                    <p>&copy; 2024 Todos os direitos reservados <br><a href="#"
-                                                                       target="_blank">&copy;DevXpert&copy; </a></p>
+                    <p>&copy; <span id="year"></span> Todos os direitos reservados <br>
+                        <a href="#" target="_blank">&copy;DevXpert&copy;</a>
+                    </p>
+                    <p id="time"></p>
                 </div>
             </div>
         </div>
