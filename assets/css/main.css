@@ -3470,7 +3470,7 @@ input:not([type="submit"]):not([type="radio"]):not([type="checkbox"]),
 
 .form_group select,
 .form_group .nice-select,
-.form_group
+.form_group,
 input:not([type="submit"]):not([type="radio"]):not([type="checkbox"]),
 .form_group textarea {
     display: block;

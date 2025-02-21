@@ -8249,58 +8249,10 @@ START: Theme Cta CSS
   padding-left: 15px;
   padding-right: 15px;
 }
-@media only screen and (min-width: 576px) and (max-width: 767px) {
-  .tj-cta-6-socail ul li {
-    font-size: 14px;
-    padding-left: 0;
-  }
-  .tj-cta-6-socail ul li::after {
-    display: none;
-  }
-}
-@media (max-width: 575px) {
-  .tj-cta-6-socail ul li {
-    padding-right: 0;
-    padding-left: 0;
-    margin-bottom: 20px;
-    margin-right: 20px;
-  }
-  .tj-cta-6-socail ul li::after {
-    display: none;
-  }
-  .tj-cta-6-socail ul li:nth-child(3) {
-    margin-bottom: 0;
-  }
-  .tj-cta-6-socail ul li:nth-child(4) {
-    margin-bottom: 0;
-  }
-}
-.tj-cta-6-socail ul li::after {
-  content: "";
-  position: absolute;
-  height: 20px;
-  width: 2px;
-  top: 50%;
-  right: 0;
-  background: rgba(255, 255, 255, 0.1);
-  -webkit-transform: translateY(-50%);
-      -ms-transform: translateY(-50%);
-          transform: translateY(-50%);
-}
-.tj-cta-6-socail ul li:first-child {
-  padding-left: 0;
-}
-.tj-cta-6-socail ul li:last-child {
-  padding-right: 0;
-}
-.tj-cta-6-socail ul li:last-child::after {
-  display: none;
-}
 .tj-cta-6-socail ul li span {
   width: 28px;
   height: 28px;
   line-height: 1;
-  display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
   -webkit-box-align: center;
@@ -8317,7 +8269,6 @@ START: Theme Cta CSS
   transition: 0.3s;
 }
 .tj-cta-6-socail ul li span i {
-  display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
   line-height: 1;
@@ -8334,35 +8285,12 @@ START: Theme Cta CSS
   position: relative;
   z-index: 1;
 }
-.tj-cta-6-socail ul li span::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: var(--tj-white);
-  -webkit-transform: scale(0);
-      -ms-transform: scale(0);
-          transform: scale(0);
-  -webkit-transition: 0.3s;
-  transition: 0.3s;
-  border-radius: 50%;
-  z-index: -1;
-}
-.tj-cta-6-socail ul li:hover span {
-  color: var(--tj-theme-accent-2);
-}
 .tj-cta-6-socail ul li:hover span::before {
   -webkit-transform: scale(1);
       -ms-transform: scale(1);
           transform: scale(1);
 }
 
-/* !END: Theme Cta CSS */
-/**----------------------------------------
-START: Theme Footer CSS
-----------------------------------------*/
 .tj-footer-7-top {
   padding: 110px 0 110px;
 }
@@ -8461,7 +8389,6 @@ START: Theme Footer CSS
   width: 61px;
   height: 61px;
   line-height: 1;
-  display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
   -webkit-box-pack: center;
@@ -8604,10 +8531,6 @@ START: Theme Footer CSS
   }
 }
 
-/* !END: Theme Footer CSS */
-/**----------------------------------------
-START: Hero CSS
-----------------------------------------*/
 .tj-hero-7-area {
   background: var(--tj-theme-accent-2);
   padding: 185px 0 0;
@@ -8751,10 +8674,6 @@ START: Hero CSS
   -webkit-text-fill-color: transparent;
 }
 
-/* !END: Hero CSS */
-/**----------------------------------------
-START: Feature CSS
-----------------------------------------*/
 .tj-feature-7-wrapper {
   background: var(--tj-black-2);
   padding: 30px;
@@ -8880,10 +8799,6 @@ START: Feature CSS
   }
 }
 
-/* !END: Feature CSS */
-/**----------------------------------------
-START: About CSS
-----------------------------------------*/
 .tj-about-7-area {
   position: relative;
   background: var(--tj-theme-accent-2);
@@ -8961,10 +8876,6 @@ START: About CSS
   font-size: 36px;
 }
 
-/* !END: About CSS */
-/**----------------------------------------
-START: Counter CSS
-----------------------------------------*/
 .tj-counter-7-area {
   background: var(--tj-theme-accent-2);
   padding: 0 0 90px;
@@ -9000,10 +8911,6 @@ START: Counter CSS
   color: var(--tj-white);
 }
 
-/* !END: Counter CSS */
-/**----------------------------------------
-START: Service CSS
-----------------------------------------*/
 .tj-service-7-area {
   background: var(--tj-black-2);
   -webkit-backdrop-filter: blur(40px);
@@ -9177,10 +9084,6 @@ START: Service CSS
           transform: translateX(-150%);
 }
 
-/* !END: Service CSS */
-/**----------------------------------------
-START: Project CSS
-----------------------------------------*/
 .tj-project-7-area {
   background: var(--tj-h3-bg);
   padding: 120px 0 120px;
